@@ -27,11 +27,11 @@ int main()
 		{
 			h=link[h].nextp;
 			if(link[h].number)
-				i++;
+				i++;//222222
 		}
 		printf("%3d",link[h].number);
 		link[h].number=0;
-		count++;
+		count++;//1111111
 	}
 	printf("\n最后的成员是：");
 	for(i=1;i<=N;i++)
