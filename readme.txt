@@ -19,7 +19,7 @@ int main()
 	}
 	count=0;
 	h=N;
-	printf("\n出圈成员及顺序：");
+	printf("\n鍑哄湀鎴愬憳鍙婇『搴忥細");
 	while(count<N-1)
 	{
 		i=0;
@@ -33,10 +33,11 @@ int main()
 		link[h].number=0;
 		count++;//1111111
 	}
-	printf("\n最后的成员是：");
+	printf("\n鏈�鍚庣殑鎴愬憳鏄細");
 	for(i=1;i<=N;i++)
 		if(link[i].number)
 			printf("%3d",link[i].number);
 		printf("\n");
 		return 0;
 }
+//11111
